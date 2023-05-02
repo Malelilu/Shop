@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bobs Handy Shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+	<h1 class="Titel">Bobs all you need Shop</h1>
+
+	<h3 class="menu">Sei immer auf dem neuesten Stand mit unseren brand aktuellen Angeboten!</h3>
+	<div id="product-1" class="box">
+		<img id="product-1-image" class="bild" src="" alt="Produktbild">
+		<p id="product-1-title" class="title"></p>
+		<p id="product-1-price" class="price"></p>
+        <p> A15 Bionic Chip-Technologie und ein beeindruckendes OLED Super Retina XDR Display. </p>
+		<br>
+        <p id="anz1">Anzahl:</p>
+        <button id="plus-btn1" onclick="anzPlus1(599)">Hinzufügen</button>
+        <button id="minus-btn1" onclick="anzMinus1()">Entfernen</button>
+  
+	</div>
+    <div id="product-2" class="box">
+		<img id="product-2-image" class="bild" src="" alt="Produktbild">
+		<p id="product-2-title" class="title"></p>
+		<p id="product-2-price" class="price"></p>
+        <p>  A15 Bionic Chip-System und eine beeindruckende 12-Megapixel-Kamera. </p>
+		<br>
+        <p id="anz2">Anzahl:</p>
+        <button id="plus-btn2" onclick="anzPlus2()">Hinzufügen</button>
+        <button id="minus-btn2" onclick="anzMinus2()">Entfernen</button>
+  
+	</div>
+    <div id="product-3" class="box">
+		<img id="product-3-image" class="bild" src="" alt="Produktbild">
+		<p id="product-3-title" class="title"></p>
+		<p id="product-3-price" class="price"></p>
+        <p> 6,8-Zoll Dynamic AMOLED-Display und eine hochauflösende 108-Megapixel-Kamera. </p>
+        <p id="anz3">Anzahl:</p>
+        <button id="plus-btn3" onclick="anzPlus3()">Hinzufügen</button>
+        <button id="minus-btn3" onclick="anzMinus3()">Entfernen</button>
+  
+	</div>
+    <div id="product-4" class="box">
+		<img id="product-4-image" class="bild" src="" alt="Produktbild">
+		<p id="product-4-title" class="title"></p>
+		<p id="product-4-price" class="price"></p>
+        <p> Quad-Kamera-Technologie und ein beeindruckendes 6,7-Zoll-AMOLED-Display. </p>
+        <p id="anz4">Anzahl:</p>
+        <button id="plus-btn4" onclick="anzPlus4()">Hinzufügen</button>
+        <button id="minus-btn4" onclick="anzMinus4()">Entfernen</button>
+  
+	</div>
+    <div id="product-5" class="box">
+		<img id="product-5-image" class="bild" src="" alt="Produktbild">
+		<p id="product-5-title" class="title"></p>
+		<p id="product-5-price" class="price"></p>
+        <p> Dimensity 1200 CPU und ein beeindruckendes 6,43-Zoll-AMOLED-Display. </p>
+        <p id="anz5">Anzahl:</p>
+        <button id="plus-btn5" onclick="anzPlus5()">Hinzufügen</button>
+        <button id="minus-btn5" onclick="anzMinus5()">Entfernen</button>
+  
+	</div>
+    <div id="product-6" class="box">
+		<img id="product-6-image" class="bild" src="" alt="Produktbild">
+		<p id="product-6-title" class="title"></p>
+		<p id="product-6-price" class="price"></p>
+        <p> Das MacBook Pro von Apple verfügt über einen M1 Chip, der eine schnelle Leistung und lange Akkulaufzeit ermöglicht. </p>
+        <p id="anz6">Anzahl:</p>
+        <button id="plus-btn6" onclick="anzPlus6()">Hinzufügen</button>
+        <button id="minus-btn6" onclick="anzMinus6()">Entfernen</button>
+  
+	</div>
+	<div id="product-7" class="box">
+		<img id="product-7-image" class="bild" src="" alt="Produktbild">
+		<p id="product-7-title" class="title"></p>
+		<p id="product-7-price" class="price"></p>
+        <p> Das Samsung Galaxy Book ist mit einem Intel Core i7 Prozessor der 11. Generation. </p>
+        <p id="anz7">Anzahl:</p>
+        <button id="plus-btn7" onclick="anzPlus7()">Hinzufügen</button>
+        <button id="minus-btn7" onclick="anzMinus7()">Entfernen</button>
+  
+	</div>
+	<div id="product-8" class="box">
+		<img id="product-8-image" class="bild" src="" alt="Produktbild">
+		<p id="product-8-title" class="title"></p>
+		<p id="product-8-price" class="price"></p>
+        <p> Intel Core i7 Prozessor der 11. Generation und einer PCIe-SSD. </p>
+        <p id="anz8">Anzahl:</p>
+        <button id="plus-btn8" onclick="anzPlus8()">Hinzufügen</button>
+        <button id="minus-btn8" onclick="anzMinus8()">Entfernen</button>
+  
+	</div>
+	<div id="product-9" class="box">
+		<img id="product-9-image" class="bild" src="" alt="Produktbild">
+		<p id="product-9-title" class="title"></p>
+		<p id="product-9-price" class="price"></p>
+        <p> Intel Core i7 Prozessor der 11. Generation, ein hochauflösendes Display und eine lange Akkulaufzeit. </p>
+        <p id="anz9">Anzahl:</p>
+        <button id="plus-btn9" onclick="anzPlus9()">Hinzufügen</button>
+        <button id="minus-btn9" onclick="anzMinus9()">Entfernen</button>
+  
+	</div>
+	<div id="product-10" class="box">
+		<img id="product-10-image" class="bild" src="" alt="Produktbild">
+		<p id="product-10-title" class="title"></p>
+		<p id="product-10-price" class="price"></p>
+        <p>Intel Core i7 Prozessor, eine NVIDIA GeForce Grafikkarte und ein 4K-Display. </p>
+        <p id="anz10">Anzahl:</p>
+        <button id="plus-btn10" onclick="anzPlus10()">Hinzufügen</button>
+        <button id="minus-btn10" onclick="anzMinus10()">Entfernen</button>
+  
+	</div>
+	<div id="product-11" class="box">
+		<img id="product-11-image" class="bild" src="" alt="Produktbild">
+		<p id="product-11-title" class="title"></p>
+		<p id="product-11-price" class="price"></p>
+        <p> ätherischen Ölen und synthetischen Aromastoffen. </p>
+        <p id="anz11">Anzahl:</p>
+        <button id="plus-btn11" onclick="anzPlus11()">Hinzufügen</button>
+        <button id="minus-btn11" onclick="anzMinus11()">Entfernen</button>
+  
+	</div>
+	<div id="product-12" class="box">
+		<img id="product-12-image" class="bild" src="" alt="Produktbild">
+		<p id="product-12-title" class="title"></p>
+		<p id="product-12-price" class="price"></p>
+        <p> von zitrisch und frisch bis hin zu blumig und würzig. </p>
+        <p id="anz12">Anzahl:</p>
+        <button id="plus-btn12" onclick="anzPlus12()">Hinzufügen</button>
+        <button id="minus-btn12" onclick="anzMinus12()">Entfernen</button>
+  
+	</div>
+	<div id="product-13" class="box">
+		<img id="product-13-image" class="bild" src="" alt="Produktbild">
+		<p id="product-13-title" class="title"></p>
+		<p id="product-13-price" class="price"></p>
+        <p> Eau de Cologne mit geringerer Konzentration. </p>
+        <p id="anz13">Anzahl:</p>
+        <button id="plus-btn13" onclick="anzPlus13()">Hinzufügen</button>
+        <button id="minus-btn13" onclick="anzMinus13()">Entfernen</button>
+  
+	</div>
+	<div id="product-14" class="box">
+		<img id="product-14-image" class="bild" src="" alt="Produktbild">
+		<p id="product-14-title" class="title"></p>
+		<p id="product-14-price" class="price"></p>
+        <p> Als Teil der täglichen Körperpflege. </p>
+        <p id="anz14">Anzahl:</p>
+        <button id="plus-btn14" onclick="anzPlus14()">Hinzufügen</button>
+        <button id="minus-btn14" onclick="anzMinus14()">Entfernen</button>
+  
+	</div>
+	<div id="product-15" class="box">
+		<img id="product-15-image" class="bild" src="" alt="Produktbild">
+		<p id="product-15-title" class="title"></p>
+		<p id="product-15-price" class="price"></p>
+        <p> Parfum des persönlichen Stils. </p>
+        <p id="anz15">Anzahl:</p>
+        <button id="plus-btn15" onclick="anzPlus15()">Hinzufügen</button>
+        <button id="minus-btn15" onclick="anzMinus15()">Entfernen</button>
+  
+	</div>
+	<div id="product-16" class="box">
+		<img id="product-16-image" class="bild" src="" alt="Produktbild">
+		<p id="product-16-title" class="title"></p>
+		<p id="product-16-price" class="price"></p>
+        <p> Hyaluron ist für die trockene Haut, sehr notwendig. </p>
+        <p id="anz16">Anzahl:</p>
+        <button id="plus-btn16" onclick="anzPlus16()">Hinzufügen</button>
+        <button id="minus-btn16" onclick="anzMinus16()">Entfernen</button>
+  
+	</div>
+	<div id="product-17" class="box">
+		<img id="product-17-image" class="bild" src="" alt="Produktbild">
+		<p id="product-17-title" class="title"></p>
+		<p id="product-17-price" class="price"></p>
+        <p> OL's können aus verschiedenen Konzentrationen hergestellt werden. </p>
+        <p id="anz17">Anzahl:</p>
+        <button id="plus-btn17" onclick="anzPlus17()">Hinzufügen</button>
+        <button id="minus-btn17" onclick="anzMinus17()">Entfernen</button>
+  
+	</div>
+	<div id="product-18" class="box">
+		<img id="product-18-image" class="bild" src="" alt="Produktbild">
+		<p id="product-18-title" class="title"></p>
+		<p id="product-18-price" class="price"></p>
+        <p> Für fettige Haut. </p>
+        <p id="anz18">Anzahl:</p>
+        <button id="plus-btn18" onclick="anzPlus18()">Hinzufügen</button>
+        <button id="minus-btn18" onclick="anzMinus18()">Entfernen</button>
+  
+	</div>
+	<div id="product-19" class="box">
+		<img id="product-19-image" class="bild" src="" alt="Produktbild">
+		<p id="product-19-title" class="title"></p>
+		<p id="product-19-price" class="price"></p>
+        <p> Reduziert Röttungen. </p>
+        <p id="anz19">Anzahl:</p>
+        <button id="plus-btn19" onclick="anzPlus19()">Hinzufügen</button>
+        <button id="minus-btn19" onclick="anzMinus19()">Entfernen</button>
+  
+	</div>
+	<div id="product-20" class="box">
+		<img id="product-20-image" class="bild" src="" alt="Produktbild">
+		<p id="product-20-title" class="title"></p>
+		<p id="product-20-price" class="price"></p>
+        <p> Für trockene Hände. </p>
+        <p id="anz20">Anzahl:</p>
+        <button id="plus-btn20" onclick="anzPlus20()">Hinzufügen</button>
+        <button id="minus-btn20" onclick="anzMinus20()">Entfernen</button>
+  
+	</div>
+	<div id="product-21" class="box">
+		<img id="product-21-image" class="bild" src="" alt="Produktbild">
+		<p id="product-21-title" class="title"></p>
+		<p id="product-21-price" class="price"></p>
+        <p> Festkochend. </p>
+        <p id="anz21">Anzahl:</p>
+        <button id="plus-btn21" onclick="anzPlus21()">Hinzufügen</button>
+        <button id="minus-btn21" onclick="anzMinus21()">Entfernen</button>
+  
+	</div>
+	<div id="product-22" class="box">
+		<img id="product-22-image" class="bild" src="" alt="Produktbild">
+		<p id="product-22-title" class="title"></p>
+		<p id="product-22-price" class="price"></p>
+        <p> China's Best of: </p>
+        <p id="anz22">Anzahl:</p>
+        <button id="plus-btn22" onclick="anzPlus22()">Hinzufügen</button>
+        <button id="minus-btn22" onclick="anzMinus22()">Entfernen</button>
+  
+	</div>
+	<div id="product-23" class="box">
+		<img id="product-23-image" class="bild" src="" alt="Produktbild">
+		<p id="product-23-title" class="title"></p>
+		<p id="product-23-price" class="price"></p>
+        <p> Vegan </p>
+        <p id="anz23">Anzahl:</p>
+        <button id="plus-btn23" onclick="anzPlus23()">Hinzufügen</button>
+        <button id="minus-btn23" onclick="anzMinus23()">Entfernen</button>
+  
+	</div>
+	<div id="product-24" class="box">
+		<img id="product-24-image" class="bild" src="" alt="Produktbild">
+		<p id="product-24-title" class="title"></p>
+		<p id="product-24-price" class="price"></p>
+        <p> Natur, mit trocken Frühchten. </p>
+        <p id="anz24">Anzahl:</p>
+        <button id="plus-btn24" onclick="anzPlus24()">Hinzufügen</button>
+        <button id="minus-btn24" onclick="anzMinus24()">Entfernen</button>
+  
+	</div>
+	<div id="product-25" class="box">
+		<img id="product-25-image" class="bild" src="" alt="Produktbild">
+		<p id="product-25-title" class="title"></p>
+		<p id="product-25-price" class="price"></p>
+        <p> Nature </p>
+        <p id="anz25">Anzahl:</p>
+        <button id="plus-btn25" onclick="anzPlus25()">Hinzufügen</button>
+        <button id="minus-btn25" onclick="anzMinus25()">Entfernen</button>
+  
+	</div>
+	<div id="product-26" class="box">
+		<img id="product-26-image" class="bild" src="" alt="Produktbild">
+		<p id="product-26-title" class="title"></p>
+		<p id="product-26-price" class="price"></p>
+        <p> Handmade </p>
+        <p id="anz26">Anzahl:</p>
+        <button id="plus-btn26" onclick="anzPlus26()">Hinzufügen</button>
+        <button id="minus-btn26" onclick="anzMinus26()">Entfernen</button>
+  
+	</div>
+	<div id="product-27" class="box">
+		<img id="product-27-image" class="bild" src="" alt="Produktbild">
+		<p id="product-27-title" class="title"></p>
+		<p id="product-27-price" class="price"></p>
+        <p> Handmade </p>
+        <p id="anz27">Anzahl:</p>
+        <button id="plus-btn27" onclick="anzPlus27()">Hinzufügen</button>
+        <button id="minus-btn27" onclick="anzMinus27()">Entfernen</button>
+  
+	</div>
+	<div id="product-28" class="box">
+		<img id="product-28-image" class="bild" src="" alt="Produktbild">
+		<p id="product-28-title" class="title"></p>
+		<p id="product-28-price" class="price"></p>
+        <p> Led wall light. </p>
+        <p id="anz28">Anzahl:</p>
+        <button id="plus-btn28" onclick="anzPlus28()">Hinzufügen</button>
+        <button id="minus-btn28" onclick="anzMinus28()">Entfernen</button>
+  
+	</div>
+	<div id="product-29" class="box">
+		<img id="product-29-image" class="bild" src="" alt="Produktbild">
+		<p id="product-29-title" class="title"></p>
+		<p id="product-29-price" class="price"></p>
+        <p> Handmade with love. </p>
+        <p id="anz29">Anzahl:</p>
+        <button id="plus-btn29" onclick="anzPlus29()">Hinzufügen</button>
+        <button id="minus-btn29" onclick="anzMinus29()">Entfernen</button>
+  
+	</div>
+	<div id="product-30" class="box">
+		<img id="product-30-image" class="bild" src="" alt="Produktbild">
+		<p id="product-30-title" class="title"></p>
+		<p id="product-30-price" class="price"></p>
+        <p> Key Holder Rusticanstyle. </p>
+        <p id="anz30">Anzahl:</p>
+        <button id="plus-btn30" onclick="anzPlus30()">Hinzufügen</button>
+        <button id="minus-btn30" onclick="anzMinus30()">Entfernen</button>
+  
+	</div>
+
+    <br>
+	
+	<div class="popup" id="popup">
+        <img src="C:\Users\pasqu\Desktop\Programme\VisualStudio\JavaScribt\Projekt handyshop\Online Shop\404-tick.png">
+        <h2>Vielen Dank!</h2>
+        <p>Deine Bestellung wurde zum Warenkorb hinzugefügt</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
+
+	  <div class="gesamtpreis">
+		<p id="result"><strong>Gesamtpreis: </strong><span id="gesamtpreis">0,00€</span></p>
+		<button type="submit" class="buy" id="kaufen-btn" onclick="openPopup()">Kaufen</button>
+  
+	  </div>
+  
+  
+  <script>
+	  let popup = document.getElementById("popup");
+	  function openPopup(){
+		  popup.classList.add("open-popup");
+	  }
+	  function closePopup(){
+		  popup.classList.remove("open-popup");
+	  }
+  </script>
+
+	<script src="app.js"></script>
+</body>
+</html>

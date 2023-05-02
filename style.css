@@ -1,0 +1,123 @@
+body {
+  background-color:rgb(179, 197, 212)
+}
+
+img {
+  width: 50px;
+  height: 70px;
+}
+
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+}
+
+.box {
+  background-color: #54719f;
+  padding: 20px;
+  max-width: 500px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.Titel {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+
+}
+
+.menu {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+
+}
+
+.gesamtpreis {
+  margin: 10px;
+  border-radius: 2em;
+  position: fixed;
+  opacity: 90%;
+  right: 0;
+  bottom: 0;
+  background-color: #eee;
+  padding: 20px;
+  text-align: right;
+}
+
+.result {
+  font-size: 24px; 
+}
+
+.bild {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.buy {
+  padding: 10px;
+  text-align:center;
+  width:200px;
+  background-color:#eee;
+  transition-duration:0.5s;
+  border-radius:1em
+}
+
+.buy:hover {
+transform:
+translateY(-5px);
+background-color:rgb(126, 139, 176)
+}
+
+.popup{
+width:400px;
+background:#fff;
+border-radius: 6px;
+position:absolute;
+top:auto;
+left: 50%;
+transform: translate(-50%,-50%) scale(0.1);
+text-align:center;
+padding:0 30px 30px;
+color:#333;
+visibility: hidden;
+transition: transform
+0.4s,top
+0.4s
+}
+
+.open-popup{
+visibility: visible;
+top: 50%;
+transform: translate(-50%,-50%) scale(1)
+}
+
+.popup img{
+width: 100px;
+margin-top:-50px;
+border-radius:50%;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2)
+}
+
+.popup h2{
+font-size: 38px;
+font-weight: 500;
+margin: 30px 0 10px
+}
+
+.popup button{
+width: 100%;
+margin-top: 50px;
+padding: 10px;
+background:rgb(126, 139, 176);color:#fff;
+border: 0;
+outline: none;
+font-size: 18px;
+}
